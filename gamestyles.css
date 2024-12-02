@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+:root {
+    --cardinal: #990000;
+    --gold: #FFCC00;
+    --cardinal-light: #ff9595;
+    --outline: #d9dbdd;
+    --outline-dark: #c5c6d0;
+    --button-bg: #f5f6f6;
+    --raised-surface: #f5f6f6;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+main {
+    height: 100%;
+    width: calc(100vw - 80px);
+    padding-top: 70px;
+    max-width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    background: white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.flex-hor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.game-splash-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    padding-bottom: 30px;
+    transition: opacity 0.5s;
+}
+
+.game-splash-hidden {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.modal-wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 100vw;
+    max-width: 500px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .modal-content {
+        height: 100vh;
+        border-radius: 0;
+        margin: 0;
+    }
+}
+
+.game-splash-wrapper h1 {
+    margin-bottom: 10px;
+    font-size: 48px;
+    margin-top: 30px !important;
+}
+
+.game-splash-wrapper h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.game-splash-wrapper button {
+    margin-bottom: 20px;
+    background: white;
+    transition: color .2s, background 0.2s, border 0.2s;
+    width: 100px;
+}
+
+.game-splash-wrapper button:hover {
+    background: black;
+    color: white;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid var(--outline);
+    background: var(--button-bg);
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding: 10px 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s, border 0.2s;
+    color: black;
+    height: 45px;
+}
+
+button i {
+    font-size: 1.5rem;
+}
+
+button:hover,
+button.active {
+    border: 1px solid #fff0;
+    background: var(--gold);
+}
+
+button:disabled {
+    background: var(--button-bg);
+    border: 1px solid var(--outline);
+    color: #96979f;
+    cursor: not-allowed;
+}
