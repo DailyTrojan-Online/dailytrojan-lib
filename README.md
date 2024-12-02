@@ -6,7 +6,9 @@ This can either be imported from CDN, or imported as a Git Submodule for faster 
 # How To Use
 ## Submodule
 Run the following command in the root folder of your project:
-```git submodule add https://github.com/DailyTrojan-Online/dailytrojan-lib```
+```
+git submodule add https://github.com/DailyTrojan-Online/dailytrojan-lib
+```
 This will check out the library and add it as a submodule to your folder, in the directory of `/dailytrojan-lib`
 
 If you would like to update the library, run:
