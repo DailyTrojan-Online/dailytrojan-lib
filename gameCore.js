@@ -106,7 +106,7 @@ class DTGameCore {
 			month: "2-digit",
 			day: "2-digit",
 		}).format(new Date());
-		this.initRNG(gameSeed);
+		this.initRNG(this.gameSeed);
 
 		if (this.splashDate != null) {
 			this.splashDate.innerText = new Intl.DateTimeFormat("en-US", {
