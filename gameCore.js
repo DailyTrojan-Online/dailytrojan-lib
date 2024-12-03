@@ -135,7 +135,7 @@ class DTGameCore {
 	}
 
 	hideSplashScreen() {
-        if(this.gameSplash == null) return;
+		if (this.gameSplash == null) return;
 		this.gameSplash.classList.add("game-splash-hidden");
 	}
 
@@ -143,5 +143,12 @@ class DTGameCore {
 		const l = arr.length;
 		const i = Math.floor(this.rng.next() * l);
 		return arr[i];
+	}
+
+	randomInt(min = 0, max = 1) {
+		return Math.floor(this.rng.next() * (max - min + 1) + min);
+	}
+	randomFloat(min = 0, max = 1) {
+		return this.rng.next() * (max - min) + min;
 	}
 }
