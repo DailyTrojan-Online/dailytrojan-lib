@@ -8,7 +8,7 @@
 *
 */
 @font-face {
-    font-family: 'Nunito-ExtraLight';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-ExtraLight.woff2') format('woff2');
     font-weight: 200;
     font-display: swap;
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-ExtraLightItalic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-ExtraLightItalic.woff2') format('woff2');
     font-weight: 200;
     font-display: swap;
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-Light';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-Light.woff2') format('woff2');
     font-weight: 300;
     font-display: swap;
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-LightItalic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-LightItalic.woff2') format('woff2');
     font-weight: 300;
     font-display: swap;
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-Regular';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-Regular.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
@@ -48,7 +48,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-Italic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-Italic.woff2') format('woff2');
     font-weight: 400;
     font-display: swap;
@@ -56,7 +56,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-Medium';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-Medium.woff2') format('woff2');
     font-weight: 500;
     font-display: swap;
@@ -64,7 +64,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-MediumItalic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-MediumItalic.woff2') format('woff2');
     font-weight: 500;
     font-display: swap;
@@ -72,7 +72,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-SemiBold';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-display: swap;
@@ -80,7 +80,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-SemiBoldItalic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-SemiBoldItalic.woff2') format('woff2');
     font-weight: 600;
     font-display: swap;
@@ -88,7 +88,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-Bold';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-Bold.woff2') format('woff2');
     font-weight: 700;
     font-display: swap;
@@ -96,7 +96,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-BoldItalic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-BoldItalic.woff2') format('woff2');
     font-weight: 700;
     font-display: swap;
@@ -104,7 +104,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-ExtraBold';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-ExtraBold.woff2') format('woff2');
     font-weight: 800;
     font-display: swap;
@@ -112,7 +112,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-ExtraBoldItalic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-ExtraBoldItalic.woff2') format('woff2');
     font-weight: 800;
     font-display: swap;
@@ -120,7 +120,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-Black';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-Black.woff2') format('woff2');
     font-weight: 900;
     font-display: swap;
@@ -128,7 +128,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito-BlackItalic';
+    font-family: 'Nunito';
     src: url('./Nunito/Nunito-BlackItalic.woff2') format('woff2');
     font-weight: 900;
     font-display: swap;
