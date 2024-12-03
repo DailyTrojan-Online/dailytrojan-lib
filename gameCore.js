@@ -151,4 +151,15 @@ class DTGameCore {
 	randomFloat(min = 0, max = 1) {
 		return this.rng.next() * (max - min) + min;
 	}
+	copyToClipboard(text) {
+		if (navigator.clipboard) {
+			navigator.clipboard.writeText(text).then(() => {
+				console.log('Text copied to clipboard');
+			}).catch(err => {
+				console.error('Failed to copy text: ', err);
+			});
+		} else {
+			console.error('Clipboard API not supported');
+		}
+	}
 }
