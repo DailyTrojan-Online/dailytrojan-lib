@@ -1,0 +1,491 @@
+/**
+* @license
+*
+* Font Family: Nunito
+* Designed by: Vernon Adams, Cyreal, Jacques Le Bailly
+* URL: https://www.fontshare.com/fonts/nunito
+* © 2024 Indian Type Foundry
+*
+*/
+@font-face {
+    font-family: 'Nunito-ExtraLight';
+    src: url('./Nunito/Nunito-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraLightItalic';
+    src: url('./Nunito/Nunito-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito-Light';
+    src: url('./Nunito/Nunito-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-LightItalic';
+    src: url('./Nunito/Nunito-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('./Nunito/Nunito-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-Italic';
+    src: url('./Nunito/Nunito-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito-Medium';
+    src: url('./Nunito/Nunito-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-MediumItalic';
+    src: url('./Nunito/Nunito-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito-SemiBold';
+    src: url('./Nunito/Nunito-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-SemiBoldItalic';
+    src: url('./Nunito/Nunito-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('./Nunito/Nunito-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-BoldItalic';
+    src: url('./Nunito/Nunito-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraBold';
+    src: url('./Nunito/Nunito-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraBoldItalic';
+    src: url('./Nunito/Nunito-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nunito-Black';
+    src: url('./Nunito/Nunito-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito-BlackItalic';
+    src: url('./Nunito/Nunito-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+/**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: ital 0.0wght 200.0;
+  *
+  * available axes:
+  'ital' (range from 0.0 to 1.0'wght' (range from 200.0 to 1.0e3
+  */
+@font-face {
+    font-family: 'Nunito-Variable';
+    src: url('./Nunito/Nunito-Variable.woff2') format('woff2');
+    font-weight: 200 1000;
+    font-display: swap;
+    font-style: normal;
+}
+
+/**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: ital 0.0wght 200.0;
+  *
+  * available axes:
+  'ital' (range from 0.0 to 1.0'wght' (range from 200.0 to 1.0e3
+  */
+@font-face {
+    font-family: 'Nunito-VariableItalic';
+    src: url('./Nunito/Nunito-VariableItalic.woff2') format('woff2');
+    font-weight: 200 1000;
+    font-display: swap;
+    font-style: italic;
+}
+/**Inter**/
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("./Inter/Inter-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url("./Inter/Inter-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("./Inter/Inter-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("./Inter/Inter-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./Inter/Inter-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./Inter/Inter-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Inter/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Inter/Inter-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./Inter/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./Inter/Inter-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./Inter/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./Inter/Inter-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Inter/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Inter/Inter-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("./Inter/Inter-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("./Inter/Inter-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./Inter/Inter-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./Inter/Inter-BlackItalic.woff2") format("woff2");
+}
+
+/**Geist Mono**/
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-Thin.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-UltraLight.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-Light.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-Regular.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./GeistMono/GeistMono-UltraBlack.woff2") format("woff2");
+}
+
+
+/**Source Serif 4**/
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-SemiboldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-BoldItalic.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Serif 4";
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./SourceSerif4/SourceSerif4-BlackItalic.woff2") format("woff2");
+}
