@@ -153,13 +153,27 @@ class DTGameCore {
 	}
 	copyToClipboard(text) {
 		if (navigator.clipboard) {
-			navigator.clipboard.writeText(text).then(() => {
-				console.log('Text copied to clipboard');
-			}).catch(err => {
-				console.error('Failed to copy text: ', err);
-			});
+			navigator.clipboard
+				.writeText(text)
+				.then(() => {
+					console.log("Text copied to clipboard");
+				})
+				.catch((err) => {
+					console.error("Failed to copy text: ", err);
+				});
 		} else {
-			console.error('Clipboard API not supported');
+			console.error("Clipboard API not supported");
 		}
+	}
+	formatString(str, ...args) {
+		if (args.length) {
+			var key;
+
+			for (key in args) {
+				str = str.replace(new RegExp("\\{" + key + "\\}", "gi"), args[key]);
+			}
+		}
+
+		return str;
 	}
 }
