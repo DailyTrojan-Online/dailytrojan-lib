@@ -167,8 +167,8 @@ h1 {
 }
 
 .modal-wrapper .modal-content {
-    transform: scale(.75);
-    transition: transform 0.2s ease-in-out;
+    transform: scale(.85);
+    transition: transform 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .modal-wrapper.modal-visible .modal-content {
