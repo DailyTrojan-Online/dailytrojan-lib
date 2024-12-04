@@ -30,6 +30,22 @@ function mixKey(seed, key) {
 	return key;
 }
 
+
+function hideHeader() {
+	const header = document.querySelector("header");
+	if (header) {
+		header.style.display = "none";
+	}
+}
+
+function enableDarkMode() {
+	document.body.classList.add("dark-mode");
+}
+
+function disableDarkMode() {
+	document.body.classList.remove("dark-mode");
+}
+
 var _arc4_startdenom = 281474976710656;
 var _arc4_significance = 4503599627370496;
 var _arc4_overflow = 9007199254740992;

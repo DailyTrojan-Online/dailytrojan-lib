@@ -5,9 +5,30 @@
     --outline: #d9dbdd;
     --outline-dark: #c5c6d0;
     --button-bg: #f5f6f6;
+    --button-hover: var(--gold);
+    --button-text: #000000;
     --raised-surface: #f5f6f6;
+    --raised-surface-heavy: #e2e3e3;
+    --error: #d42626;
+    --success: #20be4f;
+    --body-background: white;
+    --main-text-color: black;
 
     --bounce-bezier: cubic-bezier(0,1.37,.61,2.06);
+}
+
+.dark-mode {
+    --outline: #545658;
+    --outline-dark: #5c5c5f;
+    --button-bg: #3c3d42;
+    --button-hover: var(--cardinal);
+    --button-text: #fff;
+    --raised-surface: #313035;
+    --raised-surface-heavy: #56575a;
+    --error: #f33e4d;
+    --success: #43e774;
+    --body-background: rgb(32, 33, 34);
+    --main-text-color: rgb(255, 255, 255);
 }
 
 body,
@@ -16,8 +37,10 @@ html {
     padding: 0;
     width: 100%;
     height: 100%;
+    background: var(--body-background);
     overflow: hidden;
     font-family: 'Inter', sans-serif;
+    color: var(--main-text-color);
 }
 
 button {
@@ -57,7 +80,6 @@ header {
     position: fixed;
     width: 100%;
     height: fit-content;
-    background: white;
 }
 
 h1 {
@@ -120,7 +142,7 @@ h1 {
 .modal-content {
     width: 100vw;
     max-width: 500px;
-    background: white;
+    background: var(--raised-surface);
     border-radius: 20px;
     border: 1px solid var(--outline);
     margin-bottom: 60px;
@@ -132,7 +154,7 @@ h1 {
     box-shadow: 0 10px 40px rgba(0, 0, 0, .17)
 }
 
-.history-stats {
+.modal-content .history-stats {
     display: flex;
     width: 100%;
     padding: 0 20px;
@@ -199,6 +221,7 @@ h1 {
 .game-splash-wrapper button {
     margin-bottom: 20px;
     background: white;
+    color: black;
     transition: color .2s, background 0.2s, border 0.2s;
     min-width: 100px;
 }
@@ -225,7 +248,7 @@ button {
     justify-content: center;
     align-items: center;
     transition: background 0.2s, border 0.2s;
-    color: black;
+    color: var(--button-text);
     height: 45px;
 }
 
@@ -236,7 +259,7 @@ button i {
 button:hover,
 button.active {
     border: 1px solid #fff0;
-    background: var(--gold);
+    background: var(--button-hover);
 }
 
 button:disabled {
