@@ -11,6 +11,11 @@ git submodule add https://github.com/DailyTrojan-Online/dailytrojan-lib
 ```
 This will check out the library and add it as a submodule to your folder, in the directory of `/dailytrojan-lib`
 
+If you cloned a repository which uses this library, you first need to initialize the submodule by running the following in the root of your project, followed by the update command:
+```
+git submodule init
+```
+
 If you would like to update the library, run:
 ```
 git submodule update --remote
