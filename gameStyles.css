@@ -132,7 +132,7 @@ h1 {
     box-shadow: 0 10px 40px rgba(0, 0, 0, .17)
 }
 
-.modal-content .history-stats {
+.history-stats {
     display: flex;
     width: 100%;
     padding: 0 20px;
