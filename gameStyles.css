@@ -200,7 +200,7 @@ h1 {
     margin-bottom: 20px;
     background: white;
     transition: color .2s, background 0.2s, border 0.2s;
-    width: 100px;
+    min-width: 100px;
 }
 
 .game-splash-wrapper button:hover {
