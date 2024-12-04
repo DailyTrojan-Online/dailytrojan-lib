@@ -167,12 +167,13 @@ h1 {
 }
 
 .modal-wrapper .modal-content {
-    transform: scale(.85);
-    transition: transform 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(.45);
+    transition: transform 0.3s ease-in;
 }
 
 .modal-wrapper.modal-visible .modal-content {
     transform: scale(1);
+    transition: transform 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 @media screen and (max-width: 500px) {
