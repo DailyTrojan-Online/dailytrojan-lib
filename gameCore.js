@@ -30,6 +30,13 @@ function mixKey(seed, key) {
 	return key;
 }
 
+function hideBackButton() {
+	const backButton = document.getElementById("game-back-button");
+	if (backButton) {
+		backButton.style.display = "none";
+	}
+}
+
 
 function hideHeader() {
 	const header = document.querySelector("header");

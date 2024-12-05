@@ -17,6 +17,10 @@
     --bounce-bezier: cubic-bezier(0,1.37,.61,2.06);
 }
 
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .dark-mode {
     --outline: #545658;
     --outline-dark: #5c5c5f;
@@ -107,8 +111,10 @@ h1 {
     z-index: 100;
     padding: 0 30px;
     box-sizing: border-box;
-    padding-bottom: 30px;
     transition: opacity 0.5s;
+}
+.game-splash-wrapper p {
+    margin-bottom: 0;
 }
 
 .game-splash-hidden {
@@ -268,3 +274,4 @@ button:disabled {
     color: #96979f;
     cursor: not-allowed;
 }
+
