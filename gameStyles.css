@@ -24,14 +24,14 @@
 .dark-mode {
     --outline: #545658;
     --outline-dark: #5c5c5f;
-    --button-bg: #3c3d42;
+    --button-bg: #3e4146;
     --button-hover: var(--cardinal);
     --button-text: #fff;
-    --raised-surface: #313035;
-    --raised-surface-heavy: #56575a;
+    --raised-surface: #28292c;
+    --raised-surface-heavy: #3e4045;
     --error: #f33e4d;
     --success: #43e774;
-    --body-background: rgb(32, 33, 34);
+    --body-background: rgb(24, 25, 27);
     --main-text-color: rgb(255, 255, 255);
 }
 
