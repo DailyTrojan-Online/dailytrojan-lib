@@ -199,4 +199,25 @@ class DTGameCore {
 
 		return str;
 	}
+	showToast(message, icon, duration = 3000) {
+		const toast = document.createElement("div");
+		toast.classList.add("toast-notification")
+		toast.innerHTML = message;
+		let i = document.createElement("i");
+		i.classList.add("ti");
+		i.classList.add(icon);
+		toast.prepend(i);
+		document.body.appendChild(toast);
+
+		setTimeout(() => {
+			toast.classList.add("toast-show");			
+		}, 1);
+		setTimeout(() => {
+			toast.classList.remove("toast-show");
+			setTimeout(() => {
+				toast.remove();
+			}, 300);
+		}, duration);
+	}
+
 }
