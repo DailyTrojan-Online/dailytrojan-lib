@@ -146,7 +146,7 @@ class DTGameCore {
 	}
 
 	homeRedirect() {
-		this.redirect("https://dailytrojan-online.github.io/dailytrojan-games");
+		this.redirect("https://dailytrojan.com/games/");
 	}
 
 	back() {
