@@ -155,12 +155,22 @@ h1 {
     background: var(--raised-surface);
     border-radius: 20px;
     border: 1px solid var(--outline);
-    padding: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 40px rgba(0, 0, 0, .17)
+}
+.modal-inner {
+    display: contents;
+    height: fit-content;
+    width: 100%;
+    padding: 30px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-content .history-stats {
