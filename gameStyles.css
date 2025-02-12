@@ -265,6 +265,17 @@ button {
     height: 45px;
 }
 
+
+.close-button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
 button i {
     font-size: 1.5rem;
 }
