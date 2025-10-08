@@ -1,4 +1,4 @@
-function processSeed(seed) {
+export function processSeed(seed) {
 	if (seed === void 0) {
 		seed = crypto.randomUUID();
 	}
@@ -13,7 +13,7 @@ function processSeed(seed) {
 	return s;
 }
 
-function mixKey(seed, key) {
+export function mixKey(seed, key) {
 	var _a;
 	const seedStr = `${seed}`;
 	let smear = 0;
@@ -30,7 +30,7 @@ function mixKey(seed, key) {
 	return key;
 }
 
-function hideBackButton() {
+export function hideBackButton() {
 	const backButton = document.getElementById("game-back-button");
 	if (backButton) {
 		backButton.style.display = "none";
@@ -38,18 +38,18 @@ function hideBackButton() {
 }
 
 
-function hideHeader() {
+export function hideHeader() {
 	const header = document.querySelector("header");
 	if (header) {
 		header.style.display = "none";
 	}
 }
 
-function enableDarkMode() {
+export function enableDarkMode() {
 	document.body.classList.add("dark-mode");
 }
 
-function disableDarkMode() {
+export function disableDarkMode() {
 	document.body.classList.remove("dark-mode");
 }
 
@@ -119,7 +119,7 @@ var ARC4RNG = class _ARC4RNG {
 	}
 };
 
-class DTGameCore {
+export class DTGameCore {
 	constructor(gameSplash = null, splashDate = null) {
 		this.rng = null;
 		this.gameSplash = gameSplash;
