@@ -8,128 +8,128 @@
 *
 */
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-ExtraLight.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-ExtraLight.woff2") format("woff2");
     font-weight: 200;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-ExtraLightItalic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-ExtraLightItalic.woff2") format("woff2");
     font-weight: 200;
     font-display: swap;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-Light.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-Light.woff2") format("woff2");
     font-weight: 300;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-LightItalic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-LightItalic.woff2") format("woff2");
     font-weight: 300;
     font-display: swap;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-Regular.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-Regular.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-Italic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-Italic.woff2") format("woff2");
     font-weight: 400;
     font-display: swap;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-Medium.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-Medium.woff2") format("woff2");
     font-weight: 500;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-MediumItalic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-MediumItalic.woff2") format("woff2");
     font-weight: 500;
     font-display: swap;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-SemiBold.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-SemiBold.woff2") format("woff2");
     font-weight: 600;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-SemiBoldItalic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-SemiBoldItalic.woff2") format("woff2");
     font-weight: 600;
     font-display: swap;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-Bold.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-Bold.woff2") format("woff2");
     font-weight: 700;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-BoldItalic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-BoldItalic.woff2") format("woff2");
     font-weight: 700;
     font-display: swap;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-ExtraBold.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-ExtraBold.woff2") format("woff2");
     font-weight: 800;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-ExtraBoldItalic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-ExtraBoldItalic.woff2") format("woff2");
     font-weight: 800;
     font-display: swap;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-Black.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-Black.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Nunito';
-    src: url('./Nunito/Nunito-BlackItalic.woff2') format('woff2');
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-BlackItalic.woff2") format("woff2");
     font-weight: 900;
     font-display: swap;
     font-style: italic;
@@ -144,8 +144,8 @@
   'ital' (range from 0.0 to 1.0'wght' (range from 200.0 to 1.0e3
   */
 @font-face {
-    font-family: 'Nunito-Variable';
-    src: url('./Nunito/Nunito-Variable.woff2') format('woff2');
+    font-family: "Nunito-Variable";
+    src: url("./Nunito/Nunito-Variable.woff2") format("woff2");
     font-weight: 200 1000;
     font-display: swap;
     font-style: normal;
@@ -160,8 +160,8 @@
   'ital' (range from 0.0 to 1.0'wght' (range from 200.0 to 1.0e3
   */
 @font-face {
-    font-family: 'Nunito-VariableItalic';
-    src: url('./Nunito/Nunito-VariableItalic.woff2') format('woff2');
+    font-family: "Nunito-VariableItalic";
+    src: url("./Nunito/Nunito-VariableItalic.woff2") format("woff2");
     font-weight: 200 1000;
     font-display: swap;
     font-style: italic;
@@ -322,7 +322,6 @@
     src: url("./GeistMono/GeistMono-Thin.woff2") format("woff2");
 }
 
-
 @font-face {
     font-family: "Geist Mono";
     font-style: normal;
@@ -330,7 +329,6 @@
     font-display: swap;
     src: url("./GeistMono/GeistMono-UltraLight.woff2") format("woff2");
 }
-
 
 @font-face {
     font-family: "Geist Mono";
@@ -340,7 +338,6 @@
     src: url("./GeistMono/GeistMono-Light.woff2") format("woff2");
 }
 
-
 @font-face {
     font-family: "Geist Mono";
     font-style: normal;
@@ -348,7 +345,6 @@
     font-display: swap;
     src: url("./GeistMono/GeistMono-Regular.woff2") format("woff2");
 }
-
 
 @font-face {
     font-family: "Geist Mono";
@@ -390,7 +386,6 @@
     src: url("./GeistMono/GeistMono-UltraBlack.woff2") format("woff2");
 }
 
-
 /**Source Serif 4**/
 
 @font-face {
@@ -406,7 +401,8 @@
     font-style: italic;
     font-weight: 200;
     font-display: swap;
-    src: url("./SourceSerif4/SourceSerif4-ExtraLightItalic.woff2") format("woff2");
+    src: url("./SourceSerif4/SourceSerif4-ExtraLightItalic.woff2")
+        format("woff2");
 }
 
 @font-face {
@@ -473,7 +469,6 @@
     src: url("./SourceSerif4/SourceSerif4-BoldItalic.woff2") format("woff2");
 }
 
-
 @font-face {
     font-family: "Source Serif 4";
     font-style: normal;
@@ -488,4 +483,24 @@
     font-weight: 900;
     font-display: swap;
     src: url("./SourceSerif4/SourceSerif4-BlackItalic.woff2") format("woff2");
+}
+
+/**Montagu Slab**/
+
+/**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: 'opsz' 16.0, 'wght' 400.0;
+  *
+  * available axes:
+  * 'opsz' (optical size, range from 16.0 to 144.0)
+  * 'wght' (weight, range from 100.0 to 700.0)
+  */
+@font-face {
+    font-family: "Montagu Slab";
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+    src: url("./MontaguSlab/MontaguSlab-VariableFont_opsz,wght.ttf")
+        format("truetype");
 }
