@@ -7,7 +7,7 @@
     --button-bg: #f9f9f9; /*surface bright*/
     --button-hover: var(--gold);
     --button-text: #1b1b1b; /* on surface */
-    --raised-surface-light: #f7f7f7; /*surface container*/
+    --raised-surface-light: #f3f3f3; /*surface container*/
     --raised-surface: #e8e8e8; /*surface container high*/
     --raised-surface-heavy: #e2e2e2; /*surface container highest*/
     --error: #d42626;
@@ -32,7 +32,7 @@ input {
     --button-bg: #393939; /*surface bright*/
     --button-hover: var(--cardinal);
     --button-text: #e2e2e2; /* on surface */
-    --raised-surface-light: #141414; /*surface container*/
+    --raised-surface-light: #1f1f1f; /*surface container*/
     --raised-surface: #2a2a2a; /*surface container high*/
     --raised-surface-heavy: #353535; /*surface container highest*/
     --error: #f33e4d;
