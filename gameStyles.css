@@ -53,7 +53,7 @@ html {
     color: var(--main-text-color);
 }
 
-button {
+button, a.button {
     font-family: 'Inter', sans-serif;
 }
 
@@ -280,7 +280,7 @@ header h1 {
     font-weight: 500;
 }
 
-.game-splash-wrapper button {
+.game-splash-wrapper button, .game-splash-wrapper a.button {
     margin-bottom: 20px;
     background: white;
     color: black;
@@ -288,12 +288,12 @@ header h1 {
     min-width: 100px;
 }
 
-.game-splash-wrapper button:hover {
+.game-splash-wrapper button:hover, .game-splash-wrapper a.button:hover {
     background: black;
     color: white;
 }
 
-button {
+button, a.button {
     font-family: 'Inter', sans-serif;
     border: none;
     background: transparent;
@@ -325,17 +325,17 @@ button {
     border: 1px solid transparent;
 }
 
-button i {
+button i, a.button i {
     font-size: 1.5rem;
 }
 
 button:hover,
-button.active {
+button.active, a.button:hover, a.button.active {
     border: 1px solid #fff0;
     background: var(--button-hover);
 }
 
-button:disabled {
+button:disabled, a.button:disabled {
     background: var(--button-bg);
     border: 1px solid var(--outline);
     color: #96979f;
