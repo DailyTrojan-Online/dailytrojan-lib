@@ -6,12 +6,13 @@ export function processSeed(seed) {
     return seed;
   }
   const strSeed = `${seed}`;
-  let s = 0;
+  let s = 5380;
   for (let k = 0; k < strSeed.length; ++k) {
-    s ^= strSeed.charCodeAt(k) | 0;
+    s = ((s << 5) + s) + strSeed.charCodeAt((k)) | 0;
   }
   return s;
 }
+
 
 export function mixKey(seed, key) {
   var _a;
