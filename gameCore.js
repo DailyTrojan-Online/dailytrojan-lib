@@ -1,3 +1,6 @@
+export const ANALYTICS_URL =
+  "https://ancile.dailytrojandigitalmanaging.workers.dev/api/analytics/games";
+
 export function processSeed(seed) {
   if (seed === void 0) {
     seed = crypto.randomUUID();
@@ -8,11 +11,10 @@ export function processSeed(seed) {
   const strSeed = `${seed}`;
   let s = 5380;
   for (let k = 0; k < strSeed.length; ++k) {
-    s = ((s << 5) + s) + strSeed.charCodeAt((k)) | 0;
+    s = ((s << 5) + s + strSeed.charCodeAt(k)) | 0;
   }
   return s;
 }
-
 
 export function mixKey(seed, key) {
   var _a;
@@ -118,6 +120,29 @@ var ARC4RNG = class _ARC4RNG {
     return new _ARC4RNG(this._seed);
   }
 };
+function hasCookie(name) {
+  return document.cookie.split(';').some(c => c.trim().startsWith(name + '='));
+}
+
+function getCookie(name) {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
+function setCookie(name, value) {
+    let cookieString = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+    cookieString += "; path=/; SameSite=Lax; Secure";
+
+    document.cookie = cookieString;
+}
+
+function generateSecureString(length) {
+    const arr = new Uint8Array(Math.ceil(length / 2));
+    crypto.getRandomValues(arr);
+    return Array.from(arr, byte => byte.toString(16).padStart(2, '0')).join('').slice(0, length);
+}
 
 export class DTGameCore {
   constructor(gameSplash = null, splashDate = null) {
@@ -138,12 +163,40 @@ export class DTGameCore {
         year: "numeric",
       }).format(new Date());
     }
+    this.identifier = ""
+    if (!hasCookie("dtg_id")) {
+      this.identifier = generateSecureString(128)
+      setCookie("dtg_id", this.identifier)
+    } else {
+      this.identifier = getCookie("dtg_id")
+    }
 
     window.hideBackButton = hideBackButton;
     window.hideHeader = hideHeader;
     window.enableDarkMode = enableDarkMode;
     window.disableDarkMode = disableDarkMode;
     console.log("Daily Trojan GameCore Initialized");
+  }
+
+  trackAnalytics(event, game, data, error) {
+    const payload = {
+      url: window.location.href,
+      game,
+      event,
+      identifier: this.identifier
+    };
+    if (data != null) payload.data = data;
+    if (error != null) payload.error = error;
+
+    fetch(ANALYTICS_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    }).catch((err) => {
+      console.error("Analytics tracking failed:", err);
+    });
   }
 
   initRNG(seed) {
