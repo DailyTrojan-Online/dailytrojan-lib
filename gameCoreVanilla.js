@@ -1,5 +1,5 @@
 
-export const ANALYTICS_URL =
+ const ANALYTICS_URL =
     "https://ancile.dailytrojandigitalmanaging.workers.dev/api/analytics/games";
 
 function processSeed(seed) {
