@@ -167,7 +167,7 @@ class DTGameCore {
     }
     this.identifier = ""
     if (!hasCookie("dtg_id")) {
-      this.identifier = generateSecureString(128)
+      this.identifier = generateSecureString(32)
       setCookie("dtg_id", this.identifier)
     } else {
       this.identifier = getCookie("dtg_id")
